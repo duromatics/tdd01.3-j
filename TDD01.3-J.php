@@ -7,7 +7,7 @@
 	$conn = new mysqli($server, $username, $password, $db);
 	mysqli_query($conn, "SET NAMES utf8");
 	
-	$sql_text = "SELECT * FROM tbl_khasemsak_tdd_job WHERE PEA LIKE '%พธ'%";
+	$sql_text = "SELECT * FROM tbl_khasemsak_tdd_job WHERE PEA LIKE '%พธ%'";
 	$query_text = mysqli_query($conn,$sql_text);
 	
 	while($obj = mysqli_fetch_array($query_text))
