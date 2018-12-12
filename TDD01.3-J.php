@@ -7,10 +7,11 @@
 	$conn = new mysqli($server, $username, $password, $db);
 	mysqli_query($conn, "SET NAMES utf8");
 	
-	$sql_text = "SELECT * FROM tbl_khasemsak_tdd_job";
+	$sql_text = "SELECT * FROM tbl_khasemsak_tdd_job WHERE name = 'ดด.'";
 	$query_text = mysqli_query($conn,$sql_text);
 	
 	while($obj = mysqli_fetch_array($query_text))
 	{
-		echo $obj["PEA"]." ".$obj["Number"]." ".$obj["WBS"]." ".$obj["Name"]." ".$obj["Quan"]." ".$obj["Ustatus"]." ".$obj["Sstatus"]." ".$obj["ActQuan"]."<br>";
+		echo $obj["PEA"]." ".$obj["Number"]." ".$obj["WBS"]." ".$obj["Name"]." 
+		".$obj["Quan"]." ".$obj["Ustatus"]." ".$obj["Sstatus"]." ".$obj["ActQuan"]."<br>";
 	}
