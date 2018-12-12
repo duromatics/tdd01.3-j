@@ -12,6 +12,6 @@
 	
 	while($obj = mysqli_fetch_array($query_text))
 	{
-		echo $obj["PEA"]." ".$obj["Number"]." ".$obj["WBS"]." ".$obj["Name"]." 
-		".$obj["Quan"]." ".$obj["Ustatus"]." ".$obj["Sstatus"]." ".$obj["ActQuan"]."<br>";
+		echo $obj["PEA"]." ".$obj["WBS"]." ".$obj["Ustatus"]." 
+		".$obj["Sstatus"]." ".$obj["Name"]." ".$obj["Quan"]." ".$obj["ActQuan"]."<br>";
 	}
