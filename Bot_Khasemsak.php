@@ -30,7 +30,7 @@
 					{
 						$replyToken = $event['replyToken'];
 						$txtin = $event['message']['text'];
-						$result = query($txtin);
+						$result = search($txtin);
 						send_back($result,$replyToken)
 					}
 				}

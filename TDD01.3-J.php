@@ -7,11 +7,11 @@
 	$conn = new mysqli($server, $username, $password, $db);
 	mysqli_query($conn, "SET NAMES utf8");
 	
-	function query($txtin)
+	function search($txtin)
 	{
 	$sql_text = "SELECT * FROM tbl_khasemsak_tdd_job WHERE PEA LIKE '%".$txtin."%'";
-	$query = mysqli_query($conn,$sql_text);
-	while($obj_result = mysqli_fetch_array($query))
+	$search = mysqli_query($conn,$sql_text);
+	while($obj_result = mysqli_fetch_array($search))
 	{
 	$result = $result."\n".$obj_result["WBS"].$obj_result["Ustatus"].$obj_result["Status"].$obj_result["Name"].$obj_result["Quan"].$obj_result["ActQuan"];
 	}
