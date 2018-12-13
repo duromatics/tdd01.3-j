@@ -36,7 +36,7 @@
 						{
 							$result = "ข้อความยาวเกินไป  ".$len;
 						}*/
-						send_back($len,$replyToken);
+						send_back($result,$replyToken);
 					}
 				}
 			}		
