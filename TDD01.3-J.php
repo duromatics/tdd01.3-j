@@ -25,3 +25,4 @@
 		//echo $obj["PEA"]." ".$obj["WBS"]." ".$obj["Ustatus"]." 
 		//".$obj["Sstatus"]." ".$obj["Name"]." ".$obj["Quan"]." ".$obj["ActQuan"]."<br>";
 	//}
+?>
