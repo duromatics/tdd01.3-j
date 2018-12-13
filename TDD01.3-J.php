@@ -11,7 +11,7 @@
 		$query_txt = mysqli_query($conn,$sql_text);
 		while($obj_result = mysqli_fetch_array($query_txt))
 		{
-			$result = $result."\n".$obj_result["WBS"].$obj_result["Ustatus"].$obj_result["Sstatus"].$obj_result["Name"].$obj_result["Quan"].$obj_result["ActQuan"];
+			$result = $result."\nหมายเลขงาน :".$obj_result["WBS"]."\nสถานะผู้ใช้:".$obj_result["Ustatus"]."\nสถานะระบบ:".$obj_result["Sstatus"]."\nชื่องาน:".$obj_result["Name"]."\nปริมาณงาน:".$obj_result["Quan"]."\nทำได้:".$obj_result["ActQuan"];
 		}
 		return $result;
 	}
