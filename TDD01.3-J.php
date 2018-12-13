@@ -14,7 +14,7 @@
 			$quan_total = $quan_total + $obj_result["ActQuan"];
 			$result = $result."\n\nหมายเลขงาน  : ".$obj_result["WBS"]."\nสถานะผู้ใช้ : ".$obj_result["Ustatus"]."\nสถานะระบบ : ".$obj_result["Sstatus"]."\nชื่องาน : ".$obj_result["Name"]."\nปริมาณงาน : ".$obj_result["Quan"]."\nทำได้ : ".$obj_result["ActQuan"];
 		}
-		$result = $result."\nรวม : ". $quan_total;
+		$result = $result."\n\nรวมปริมาณที่ทำได้ : ". $quan_total;
 		return $result;
 	}
 	//$sql_text = "SELECT * FROM tbl_khasemsak_tdd_job WHERE PEA LIKE '%กกค%' ";
