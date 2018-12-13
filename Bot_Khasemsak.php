@@ -31,7 +31,7 @@
 						$replyToken = $event['replyToken'];
 						$txtin = $event['message']['text'];
 						$result = search($txtin);
-						send_back($result,$replyToken)
+						send_back($result,$replyToken);
 					}
 				}
 			}		
