@@ -33,7 +33,11 @@
 						{
 							$txtback = "สวัสดีคะ";
 						}
-						send_back($txtback,$replyToken);
+						if($txtin == "ชื่ออะไร")
+						{
+							$txt2back = "คพจ.1 กฟต.1 คะ";
+						}
+						send_back($txtback,$replyToken)($txt2back,$replyToken);
 					}
 				}
 			}		
