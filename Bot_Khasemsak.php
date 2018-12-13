@@ -1,4 +1,5 @@
 <?php
+	require('TDD01.3-J.php');
 	function send_back($txtin,$replyToken)
 	{
 		$access_token = '2HGhmCyQ9usib5/iCsstrgFuzOQrzk1bioHQDj67T7rZ6jzvgTywHOJGBLFkyXYlaHT84VSrtbZ3kyfr+qs79n/9j/4QlqZgLg3dVZm+xD/q30qzUL+uJsJTrk3JUbNtO/OGP0NBogD81KXGvDFgPAdB04t89/1O/w1cDnyilFU=';
@@ -29,15 +30,8 @@
 					{
 						$replyToken = $event['replyToken'];
 						$txtin = $event['message']['text'];
-						if($txtin == "Hello")
-						{
-							$txtback = "สวัสดีคะ";
-						}
-						if($txtin == "ชื่ออะไร")
-						{
-							$txt2back = "คพจ.1 กฟต.1 คะ";
-						}
-						send_back($txtback,$replyToken)($txt2back,$replyToken);
+						$result = query($txtin);
+						send_back($result,$replyToken)
 					}
 				}
 			}		
