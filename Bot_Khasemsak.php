@@ -1,5 +1,5 @@
 <?php
-	function sent_back($txtin,$replyToken)
+	function send_back($txtin,$replyToken)
 	{
 		$access_token = '2HGhmCyQ9usib5/iCsstrgFuzOQrzk1bioHQDj67T7rZ6jzvgTywHOJGBLFkyXYlaHT84VSrtbZ3kyfr+qs79n/9j/4QlqZgLg3dVZm+xD/q30qzUL+uJsJTrk3JUbNtO/OGP0NBogD81KXGvDFgPAdB04t89/1O/w1cDnyilFU=';
 		$messages = ['type' => 'text','text' => $txtin];
