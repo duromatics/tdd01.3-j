@@ -29,6 +29,10 @@
 					{
 						$replyToken = $event['replyToken'];
 						$txtin = $event['message']['text'];
+						if($txtin == "Hello")
+						{
+							$textback = "สวัสดีคะ"
+						}
 						send_back($txtin,$replyToken);
 					}
 				}
