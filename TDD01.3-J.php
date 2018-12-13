@@ -15,7 +15,7 @@
 	{
 	$result = $result."\n".$obj_result["WBS"].$obj_result["Ustatus"].$obj_result["Status"].$obj_result["Name"].$obj_result["Quan"].$obj_result["ActQuan"];
 	}
-	return $return;
+	return $result;
 	}
 	//$sql_text = "SELECT * FROM tbl_khasemsak_tdd_job WHERE PEA LIKE '%กกค%' ";
 	//$query_text = mysqli_query($conn,$sql_text);
