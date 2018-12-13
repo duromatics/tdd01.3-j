@@ -31,7 +31,7 @@
 						$txtin = $event['message']['text'];
 						if($txtin == "Hello")
 						{
-							$textback = "สวัสดีคะ";
+							$txtback = "สวัสดีคะ";
 						}
 						send_back($txtback,$replyToken);
 					}
