@@ -31,7 +31,12 @@
 						$replyToken = $event['replyToken'];
 						$txtin = $event['message']['text'];
 						$result = search($txtin);
-						send_back($result,$replyToken);
+						$len = strlen($result);
+						/*if($len > 1900)
+						{
+							$result = "ข้อความยาวเกินไป  ".$len;
+						}*/
+						send_back($len,$replyToken);
 					}
 				}
 			}		
