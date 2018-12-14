@@ -105,40 +105,104 @@ function flex_msg($keyword)
                  "type": "action",
                  "action": {
                     "type": "message",
-                    "label": "Manual",
-                    "text": "Manual"
+                    "label": "กกค.(ต.1)",
+                    "text": "#กกค.(ต.1)"
                    }
                 } ,
 				{
                  "type": "action",
                  "action": {
                     "type": "message",
-                    "label": "Keyword",
-                    "text": "Keyword"
+                    "label": "ชพ.",
+                    "text": "#ชพ."
+                   }
+				},
+				{
+                 "type": "action",
+                 "action": {
+                    "type": "message",
+                    "label": "รบ.",
+                    "text": "#รบ."
+                   }
+				},
+				{
+                 "type": "action",
+                 "action": {
+                    "type": "message",
+                    "label": "ลส.",
+                    "text": "#ลส."
+                   }
+				},
+				{
+                 "type": "action",
+                 "action": {
+                    "type": "message",
+                    "label": "ขยย.",
+                    "text": "#ขยย."
                    }
                 } ,
 				{
 				 "type": "action",
                  "action": {
                     "type": "message",
-                    "label": "PQ",
-                    "text": "PQ"
+                    "label": "จบง.",
+                    "text": "#จบง."
                    }
                 } ,
 				{
                  "type": "action",
                  "action": {
                     "type": "message",
-                    "label": "Voltage Dip",
-                    "text": "Voltage Dip"
+                    "label": "บสพ.",
+                    "text": "#บสพ."
+                   }
+				},
+				{
+                 "type": "action",
+                 "action": {
+                    "type": "message",
+                    "label": "ปข.",
+                    "text": "#ปข."
+                   }
+				},
+				{
+                 "type": "action",
+                 "action": {
+                    "type": "message",
+                    "label": "พธร.",
+                    "text": "#พธร."
+                   }
+				},
+				{
+                 "type": "action",
+                 "action": {
+                    "type": "message",
+                    "label": "สวี",
+                    "text": "#สวี."
+                   }
+				},
+				{
+                 "type": "action",
+                 "action": {
+                    "type": "message",
+                    "label": "ชอ.",
+                    "text": "#ชอ."
+                   }
+				},
+				{
+                 "type": "action",
+                 "action": {
+                    "type": "message",
+                    "label": "ปบ.",
+                    "text": "#ปบ."
                    }
 				},
  				{
                  "type": "action",
                  "action": {
                     "type": "message",
-                    "label": "Harmonic",
-                    "text": "Harmonic"
+                    "label": "หห.",
+                    "text": "#หห."
                    }
                 } 			
                ]
