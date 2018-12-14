@@ -34,7 +34,7 @@ function flex_msg($keyword)
   "type": "bubble",
   "hero": {
     "type": "image",
-    "url": "https://pqlibrary.herokuapp.com/IMG1360550178.png",
+    "url": "https://github.com/duromatics/tdd01.3-j/blob/master/photo.jpg?raw=true",
     "size": "full",
     "aspectRatio": "16:9",
     "aspectMode": "fit",
