@@ -60,7 +60,7 @@
 								echo "<B>สถานะระบบ :</B> ".$objsearch["Sstatus"]."<br>";
 								echo "<B>ชื่องาน :</B> ".$objsearch["Name"]."<br>";
 								echo "<B>ปริมาณงาน :</B> ".$objsearch["Quan"]." วงจร - กม.<br>";
-								echo "<B>ผลงาน :</B> ".$objsearch["AcrQuan"]." วงจร - กม.<br>";
+								echo "<B>ผลงาน :</B> ".$objsearch["ActQuan"]." วงจร - กม.<br>";
 								echo '</a>';
 								$a=$a+1;
 							}
