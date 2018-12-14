@@ -57,7 +57,7 @@
 			<div class="container-fluid" style="background-color:#dc9ef7;">
 				<div class="row">
 					<div class="col-sm4 offset-sm-1">
-						<h5><B>ปริมาณงานทั้งโครงการ</B></h5>
+						<h5><B>ปริมาณงานทั้งโครงการ : </B> 1,408 วงจร - กม.</h5>
 					</div>
 				</div>
 			</div>
