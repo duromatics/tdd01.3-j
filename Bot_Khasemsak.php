@@ -30,7 +30,7 @@
 					{
 						$replyToken = $event['replyToken'];
 						$txtin = $event['message']['text'];
-						$check_cmd == substr ($txtin,0,1);
+						$check_cmd = substr($txtin,0,1);
 						if($check_cmd == "#")
 						{	
 							$len_txt = strlen($txtin);
