@@ -2,7 +2,7 @@
 	
 			<head>
 				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0," charset="utf-8">
-				<title>PSQ V.2</title>
+				<title>REPORT SYSTEM (TDD01.3-J)</title>
 				<!-- css -->
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 				<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
