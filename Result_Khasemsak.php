@@ -54,17 +54,17 @@
 								$quan_total = $quan_total + $objsearch["ActQuan"];
 								echo '<a href="'.$objsearch["email"].'" class="list-group-item list-group-item-action">';
 								echo $a.".<br>";
-								echo "ผู้รับผิดชอบ".$objsearch["PEA"]."<br>";
-								echo "หมายเลขงาน ".$objsearch["WBS"]."<br>";
-								echo "สถานะผู้ใช้".$objsearch["Ustatus"]."<br>";
-								echo "สถานะระบบ".$objsearch["Sstatus"]."<br>";
-								echo "ชื่องาน".$objsearch["Name"]."<br>";
-								echo "ปริมาณงาน".$objsearch["Quan"]."<br>";
-								echo "ผลงาน".$objsearch["AcrQuan"]."<br>";
+								echo "ผู้รับผิดชอบ : ".$objsearch["PEA"]."<br>";
+								echo "หมายเลขงาน : ".$objsearch["WBS"]."<br>";
+								echo "สถานะผู้ใช้ : ".$objsearch["Ustatus"]."<br>";
+								echo "สถานะระบบ : ".$objsearch["Sstatus"]."<br>";
+								echo "ชื่องาน : ".$objsearch["Name"]."<br>";
+								echo "ปริมาณงาน : ".$objsearch["Quan"]." วงจร - กม.<br>";
+								echo "ผลงาน : ".$objsearch["AcrQuan"]." วงจร - กม.<br>";
 								echo '</a>';
 								$a=$a+1;
 							}
-							echo $quan_total;
+							echo "ผลงานสะสม : ".$quan_total. " วงจร - กม.";
 							$a=0;
 							?>
                     
