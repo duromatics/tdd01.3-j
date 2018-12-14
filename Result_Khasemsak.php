@@ -46,15 +46,15 @@
 	}
 ?>
 		<body>
-			<div class="container-fluid" style="background-color:#b461fb;">
+			<div class="container-fluid" style="background-color:#b95ae2;">
 				<div class="row">
 					<div class="col-sm4 offset-sm-3">
-						<h5>สถานะงานก่อสร้าง โครงการพัฒนาระบบส่งและจำหน่าย ระยะที่ 1 (คพจ.1)  กฟต.1</h5>	
+						<h5>โครงการพัฒนาระบบส่งและจำหน่าย ระยะที่ 1 กฟต.1 (สถานะ : 25/11/61)</h5>	
 					</div>
 				</div>
 			</div>
 			
-			<div class="container-fluid" style="background-color:#ebcaf9;">
+			<div class="container-fluid" style="background-color:#d49aed;">
 				<div class="row">
 					<div class="col-xs4 offset-sm-1">
 							<B>ปริมาณงาน ทั้งโครงการ : </B> 1,408 วงจร - กม.<br>
