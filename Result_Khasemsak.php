@@ -77,7 +77,7 @@
 							while($objsearch = mysqli_fetch_array($query_search))
 							{
 								$quan_total = $quan_total + $objsearch["Quan"];
-								$quan_total = $quan_total + $objsearch["ActQuan"];
+								$quanAct_total = $quanAct_total + $objsearch["ActQuan"];
 								echo '<a href="'.$objsearch["email"].'" class="list-group-item list-group-item-action">';
 								echo $a.".<br>";
 								echo "<B>ผู้รับผิดชอบ :</B> ".$objsearch["PEA"]."<br>";
@@ -92,7 +92,7 @@
 								$a=$a+1;
 							}
 							echo "<B>ปริมาณงานทั้งหมด :</B>".$quan_total. " วงจร - กม.<br>";
-							echo "<B>ผลงานสะสม :</B>".$quan_total. " วงจร - กม.";
+							echo "<B>ผลงานสะสม :</B>".$quanAct_total. " วงจร - กม.";
 							$a=0;
 							?>
                     
