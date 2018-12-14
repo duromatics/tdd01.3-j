@@ -12,7 +12,7 @@
 		$num_result = mysqli_num_rows($query_txt);
 			if($num_result > 3)
 			{	
-				$result = "<B>ผลงานก่อสร้าง....</B> https://tdd013j.herokuapp.com/Result_Khasemsak.php?keyword=".$txtin;
+				$result = "ผลงานก่อสร้าง.... https://tdd013j.herokuapp.com/Result_Khasemsak.php?keyword=".$txtin;
 				return $result;
 			}
 			else
