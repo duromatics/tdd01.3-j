@@ -79,9 +79,10 @@
 								echo '<a href="'.$objsearch["email"].'" class="list-group-item list-group-item-action">';
 								echo $a.".<br>";
 								echo "<B>ผู้รับผิดชอบ :</B> ".$objsearch["PEA"]."<br>";
-								echo "<B>หมายเลขงาน :</B>".$objsearch["WBS"]."<br>";
+								echo "<B>หมายเลขงาน :</B> ".$objsearch["WBS"]."<br>";
 								echo "<B>สถานะผู้ใช้ :</B> ".$objsearch["Ustatus"]."<br>";
 								echo "<B>สถานะระบบ :</B> ".$objsearch["Sstatus"]."<br>";
+								echo "<B>เปิดงานวันที่ :</B> ".$objsearch["CRTD"]."<br>";
 								echo "<B>ชื่องาน :</B> ".$objsearch["Name"]."<br>";
 								echo "<B>ปริมาณงาน :</B> ".$objsearch["Quan"]." วงจร - กม.<br>";
 								echo "<B>ผลงาน :</B> ".$objsearch["ActQuan"]." วงจร - กม.<br>";
