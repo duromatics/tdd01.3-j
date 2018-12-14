@@ -28,10 +28,27 @@
 				</div>
 			</div>
 			
-			<div class="container-fluid" style="background-color:#b461fb;">
+			<div class="container-fluid">
+					<h3>ผลการค้นหา</h3>
 				<div class="row">
-					<div class="col-sm4 offset-sm-3">
-						<h5>กองก่อสร้างและบริหารโครงการ (กกค.(ต.1))</h5>	
+					<div class="col-lg-12">
+						<div class="list-group">
+							<?php
+							$a=1;
+							while($objsearch = mysqli_fetch_array($query_search))
+							{
+								echo '<a href="'.$objsearch["email"].'" class="list-group-item list-group-item-action">';
+								echo $a.".<br>";
+								echo "ชื่อ  ".$objsearch["name"]."<br>";
+								echo "นามสกุล ".$objsearch["lastname"]."<br>";
+								echo "email".$objsearch["email"];
+								echo '</a>';
+								$a=$a+1;
+							}
+							$a=0;
+							?>
+                    
+						</div>
 					</div>
 				</div>
 			</div>
