@@ -19,6 +19,20 @@
 					}
 				</style>
 			</head>
+<?php
+	$server = "us-cdbr-iron-east-01.cleardb.net";
+    $username = "b798786b8aa714";
+    $password = "2e0e0451";
+    $db = "heroku_ce52199dd4f50e1";
+    $conn = new mysqli($server, $username, $password, $db);
+	mysqli_query($conn, "SET NAMES utf8");
+	$keyword = $_GET["keyword"];
+	if(isset($keyword))
+	{
+		$sql_search ="SELECT * FROM tbl_Khasemsak_tdd_job WHERE PEA LIKE '%".$keyword."%'";
+		$query_search = mysqli_query($conn,$sql_search);
+	}
+?>
 		<body>
 			<div class="container-fluid" style="background-color:#b461fb;">
 				<div class="row">
@@ -37,14 +51,20 @@
 							$a=1;
 							while($objsearch = mysqli_fetch_array($query_search))
 							{
+								$quan_total = $quan_total + $objsearch["ActQuan"];
 								echo '<a href="'.$objsearch["email"].'" class="list-group-item list-group-item-action">';
 								echo $a.".<br>";
-								echo "ชื่อ  ".$objsearch["name"]."<br>";
-								echo "นามสกุล ".$objsearch["lastname"]."<br>";
-								echo "email".$objsearch["email"];
+								echo "ผู้รับผิดชอบ".$objsearch["PEA"]."<br>";
+								echo "หมายเลขงาน ".$objsearch["WBS"]."<br>";
+								echo "สถานะผู้ใช้".$objsearch["Ustatus"]."<br>";
+								echo "สถานะระบบ".$objsearch["Sstatus"]."<br>";
+								echo "ชื่องาน".$objsearch["Name"]."<br>";
+								echo "ปริมาณงาน".$objsearch["Quan"]."<br>";
+								echo "ผลงาน".$objsearch["AcrQuan"]."<br>";
 								echo '</a>';
 								$a=$a+1;
 							}
+							echo $quan_total;
 							$a=0;
 							?>
                     
