@@ -35,11 +35,11 @@
 		$objsearch = mysqli_fetch_array($key_query);
 			if($numrows > 1)
 			{
-				$t_result = "พบข้อมูลงานก่อสร้าง จำนวน ".$numrows " หมายเลขงาน";
+				$t_result = "พบข้อมูลงานก่อสร้าง จำนวน ".$numrows." หมายเลขงาน";
 			}
 				else if ($numrows < 1)
 				{
-					$t_result = "ไม่พบข้อมูลงานก่อสร้าง" ;
+					$t_result = "ไม่พบข้อมูลงานก่อสร้าง";
 				}
 	}
 ?>
