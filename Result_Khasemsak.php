@@ -36,13 +36,14 @@
 		$numrows = mysqli_num_rows($query_search);
 		
 			if($numrows > 0)
-			{
-				$t_result = "พบข้อมูลงานก่อสร้าง จำนวน ".$numrows." หมายเลขงาน";
-			}
-			else if ($numrows < 1)
-			{
-				$t_result = "ไม่พบข้อมูลงานก่อสร้าง";
-			}
+				{
+					$t_result = "พบข้อมูลงานก่อสร้าง จำนวน ".$numrows." หมายเลขงาน";
+					}
+				else if ($numrows < 1)
+					{
+						$t_result = "ไม่พบข้อมูลงานก่อสร้าง";
+						}
+				
 	}
 ?>
 		<body>
