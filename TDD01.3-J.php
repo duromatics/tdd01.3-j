@@ -10,7 +10,7 @@
 		$sql_text = "SELECT * FROM tbl_khasemsak_tdd_job WHERE PEA LIKE '%".$txtin."%'";
 		$query_txt = mysqli_query($conn,$sql_text);
 		$num_result = mysqli_num_rows($query_txt);
-			if($num_result > 3)
+			if($num_result >= 1)
 			{	
 				$result = "ผลงานก่อสร้าง.... https://tdd013j.herokuapp.com/Result_Khasemsak.php?keyword=".$txtin;
 				return $result;
