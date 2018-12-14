@@ -55,16 +55,16 @@
 								echo '<a href="'.$objsearch["email"].'" class="list-group-item list-group-item-action">';
 								echo $a.".<br>";
 								echo "<B>ผู้รับผิดชอบ :</B> ".$objsearch["PEA"]."<br>";
-								echo "หมายเลขงาน : ".$objsearch["WBS"]."<br>";
-								echo "สถานะผู้ใช้ : ".$objsearch["Ustatus"]."<br>";
-								echo "สถานะระบบ : ".$objsearch["Sstatus"]."<br>";
-								echo "ชื่องาน : ".$objsearch["Name"]."<br>";
-								echo "ปริมาณงาน : ".$objsearch["Quan"]." วงจร - กม.<br>";
-								echo "ผลงาน : ".$objsearch["AcrQuan"]." วงจร - กม.<br>";
+								echo "<B>หมายเลขงาน :</B>".$objsearch["WBS"]."<br>";
+								echo "<B>สถานะผู้ใช้ :</B> ".$objsearch["Ustatus"]."<br>";
+								echo "<B>สถานะระบบ :</B> ".$objsearch["Sstatus"]."<br>";
+								echo "<B>ชื่องาน :</B> ".$objsearch["Name"]."<br>";
+								echo "<B>ปริมาณงาน :</B> ".$objsearch["Quan"]." วงจร - กม.<br>";
+								echo "<B>ผลงาน :</B> ".$objsearch["AcrQuan"]." วงจร - กม.<br>";
 								echo '</a>';
 								$a=$a+1;
 							}
-							echo "ผลงานสะสม : ".$quan_total. " วงจร - กม.";
+							echo "<B>ผลงานสะสม :</B>".$quan_total. " วงจร - กม.";
 							$a=0;
 							?>
                     
