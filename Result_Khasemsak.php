@@ -54,6 +54,16 @@
 				</div>
 			</div>
 			
+			<div class="container-fluid" style="background-color:#dc9ef7;">
+				<div class="row">
+					<div class="col-sm4 offset-sm-1">
+						<h5><B>ปริมาณงานทั้งโครงการ</B></h5>
+					</div>
+				</div>
+			</div>
+			
+			
+			
 			<div class="container-fluid">
 					<h3><?php  echo $t_result;?></h3>
 				<div class="row">
