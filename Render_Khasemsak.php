@@ -8,7 +8,7 @@ function flex_msg($keyword)
 	$db = "heroku_ce52199dd4f50e1";
 	$conn = new mysqli($server, $username, $password, $db);
 	mysqli_query($conn, "SET NAMES utf8");
-	$sql_key_search = "SELECT * FROM librarypq WHERE keyword LIKE '%".$keyword."%' OR type LIKE '%".$keyword."%'";
+	$sql_key_search = "SELECT * FROM tbl_khasemsak_tdd_job WHERE PEA LIKE '%".$keyword."%'";
 	$key_query = mysqli_query($conn,$sql_key_search);
     $numrows = mysqli_num_rows($key_query);
 	$objsearch = mysqli_fetch_array($key_query);
