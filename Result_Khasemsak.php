@@ -27,7 +27,7 @@
     $conn = new mysqli($server, $username, $password, $db);
 	mysqli_query($conn, "SET NAMES utf8");
 	$keyword = $_GET["keyword"];
-	$keyword_en = base64_decode($keyword);
+	$keyword_de = base64_decode($keyword);
 	
 	if(isset($keyword))
 	{
