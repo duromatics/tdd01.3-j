@@ -25,7 +25,7 @@ function flex_msg($keyword)
 			$btn_txt = "Manual";
 		}*/
 		$url = "https://tdd013j.herokuapp.com/Result_Khasemsak.php?keyword=".$keyword;
-		$txtresult = $numrows." items";
+		$txtresult = $numrows." หมายเลขงาน";
 		$btn_txt = "Click";
 	$json1 = '{
 				"type":"flex",
@@ -49,9 +49,15 @@ function flex_msg($keyword)
     "contents": [
       {
         "type": "text",
-        "text": "All Results",
+        "text": "ผลดำเนินการ",
         "weight": "bold",
         "size": "xl"
+      },
+	  {
+        "type": "text",
+        "text": "โครงการพัฒนาระบบส่งและจำหน่าย ระยะที่ 1",
+        "weight": "bold",
+        "size": "sm"
       },
       {
         "type": "box",
