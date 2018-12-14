@@ -8,6 +8,7 @@ function flex_msg($keyword)
 	$db = "heroku_ce52199dd4f50e1";
 	$conn = new mysqli($server, $username, $password, $db);
 	mysqli_query($conn, "SET NAMES utf8");
+	$keyword_en = base64_encode($keyword);
 	$sql_key_search = "SELECT * FROM tbl_khasemsak_tdd_job WHERE PEA LIKE '%".$keyword."%'";
 	$key_query = mysqli_query($conn,$sql_key_search);
     $numrows = mysqli_num_rows($key_query);
@@ -24,7 +25,7 @@ function flex_msg($keyword)
 			$txtresult = "0 item";
 			$btn_txt = "Manual";
 		}*/
-		$url = "https://tdd013j.herokuapp.com/Result_Khasemsak.php?keyword=".$keyword;
+		$url = "https://tdd013j.herokuapp.com/Result_Khasemsak.php?keyword=".$keyword_en;
 		$txtresult = $numrows." หมายเลขงาน";
 		$btn_txt = "Click";
 	$json1 = '{
