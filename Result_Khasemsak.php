@@ -27,9 +27,11 @@
     $conn = new mysqli($server, $username, $password, $db);
 	mysqli_query($conn, "SET NAMES utf8");
 	$keyword = $_GET["keyword"];
+	$keyword_en = base64_decode($keyword);
+	
 	if(isset($keyword))
 	{
-		$sql_search ="SELECT * FROM tbl_Khasemsak_tdd_job WHERE PEA LIKE '%".$keyword."%'";
+		$sql_search ="SELECT * FROM tbl_Khasemsak_tdd_job WHERE PEA LIKE '%".$keyword_de."%'";
 		$query_search = mysqli_query($conn,$sql_search);
 		$numrows = mysqli_num_rows($query_search);
 		

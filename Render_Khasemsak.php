@@ -58,9 +58,9 @@ function flex_msg($keyword)
         "type": "text",
         "text": "โครงการพัฒนาระบบส่งและจำหน่าย ระยะที่ 1",
         "weight": "bold",
-        "size": "sm"
+        "size": "xs"
       },
-      {
+	  {
         "type": "box",
         "layout": "vertical",
         "margin": "lg",
