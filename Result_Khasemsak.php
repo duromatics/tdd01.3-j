@@ -48,7 +48,7 @@
 		<body>
 			<div class="container-fluid" style="background-color:#b95ae2;">
 				<div class="row">
-					<div class="col-sm4 offset-sm-3">
+					<div class="col-sm4 offset-sm-0">
 						<h5>โครงการพัฒนาระบบส่งและจำหน่าย ระยะที่ 1 กฟต.1 (สถานะ : 25/11/61)</h5>	
 					</div>
 				</div>
@@ -56,7 +56,7 @@
 			
 			<div class="container-fluid" style="background-color:#d49aed;">
 				<div class="row">
-					<div class="col-xs4 offset-sm-1">
+					<div class="col-xs4 offset-sm-0">
 							<B>ปริมาณงาน ทั้งโครงการ : </B> 1,408 วงจร - กม.<br>
 							<B>อนุมัติงานแล้ว : </B> 367.65 วงจร - กม.<br>
 							<B>ผลงานสะสม ทั้งโครงการ : </B> 131.36 วงจร - กม.
