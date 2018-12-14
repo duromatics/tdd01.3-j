@@ -54,7 +54,7 @@
 								$quan_total = $quan_total + $objsearch["ActQuan"];
 								echo '<a href="'.$objsearch["email"].'" class="list-group-item list-group-item-action">';
 								echo $a.".<br>";
-								echo "ผู้รับผิดชอบ : ".$objsearch["PEA"]."<br>";
+								echo "<B>ผู้รับผิดชอบ :</B> ".$objsearch["PEA"]."<br>";
 								echo "หมายเลขงาน : ".$objsearch["WBS"]."<br>";
 								echo "สถานะผู้ใช้ : ".$objsearch["Ustatus"]."<br>";
 								echo "สถานะระบบ : ".$objsearch["Sstatus"]."<br>";
