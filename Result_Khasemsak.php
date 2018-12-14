@@ -56,8 +56,10 @@
 			
 			<div class="container-fluid" style="background-color:#dc9ef7;">
 				<div class="row">
-					<div class="col-sm4 offset-sm-1">
-						<h5><B>ปริมาณงานทั้งโครงการ : </B> 1,408 วงจร - กม.</h5>
+					<div class="col-sm2 offset-sm-1">
+						<h5><B>ปริมาณงาน ทั้งโครงการ : </B> 1,408 วงจร - กม.</h5><br>
+						<h5><B>อนุมัติงานแล้ว : </B> 367.65 วงจร - กม.</h5><br>
+						<h5><B>ผลงานสะสม ทั้งโครงการ : </B> 131.36 วงจร - กม.</h5>
 					</div>
 				</div>
 			</div>
