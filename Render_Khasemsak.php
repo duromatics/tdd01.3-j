@@ -12,7 +12,7 @@ function flex_msg($keyword)
 	$key_query = mysqli_query($conn,$sql_key_search);
     $numrows = mysqli_num_rows($key_query);
 	$objsearch = mysqli_fetch_array($key_query);
-	if($numrows > 1)
+	/*if($numrows > 1)
 	{
 		$url = "https://tdd013j.herokuapp.com/Result_Khasemsak.php?keyword=".$keyword;
 		$txtresult = $numrows." items";
@@ -23,7 +23,10 @@ function flex_msg($keyword)
 			$url = "https://drive.google.com/file/d/1Yihe0MMRmKQnEBPY3U2gxizdMHLkSqYb/preview";
 			$txtresult = "0 item";
 			$btn_txt = "Manual";
-		}
+		}*/
+		$url = "https://tdd013j.herokuapp.com/Result_Khasemsak.php?keyword=".$keyword;
+		$txtresult = $numrows." items";
+		$btn_txt = "Click";
 	$json1 = '{
 				"type":"flex",
 				"altText":" TDD01.3-J(PEAS1)",
@@ -114,7 +117,7 @@ function flex_msg($keyword)
                  "action": {
                     "type": "message",
                     "label": "ชพ.",
-                    "text": "#ชพ."
+                    "text": "#ชพ"
                    }
 				},
 				{
@@ -122,7 +125,7 @@ function flex_msg($keyword)
                  "action": {
                     "type": "message",
                     "label": "รบ.",
-                    "text": "#รบ."
+                    "text": "#รบ"
                    }
 				},
 				{
@@ -138,7 +141,7 @@ function flex_msg($keyword)
                  "action": {
                     "type": "message",
                     "label": "ขยย.",
-                    "text": "#ขยย."
+                    "text": "#ขยย"
                    }
                 } ,
 				{
@@ -146,7 +149,7 @@ function flex_msg($keyword)
                  "action": {
                     "type": "message",
                     "label": "จบง.",
-                    "text": "#จบง."
+                    "text": "#จบง"
                    }
                 } ,
 				{
@@ -154,7 +157,7 @@ function flex_msg($keyword)
                  "action": {
                     "type": "message",
                     "label": "บสพ.",
-                    "text": "#บสพ."
+                    "text": "#บสพ"
                    }
 				},
 				{
@@ -162,7 +165,7 @@ function flex_msg($keyword)
                  "action": {
                     "type": "message",
                     "label": "ปข.",
-                    "text": "#ปข."
+                    "text": "#ปข"
                    }
 				},
 				{
@@ -170,7 +173,7 @@ function flex_msg($keyword)
                  "action": {
                     "type": "message",
                     "label": "พธร.",
-                    "text": "#พธร."
+                    "text": "#พธร"
                    }
 				},
 				{
@@ -178,7 +181,7 @@ function flex_msg($keyword)
                  "action": {
                     "type": "message",
                     "label": "สวี",
-                    "text": "#สวี."
+                    "text": "#สวี"
                    }
 				},
 				{
@@ -186,7 +189,7 @@ function flex_msg($keyword)
                  "action": {
                     "type": "message",
                     "label": "ชอ.",
-                    "text": "#ชอ."
+                    "text": "#ชอ"
                    }
 				},
 				{
@@ -194,7 +197,7 @@ function flex_msg($keyword)
                  "action": {
                     "type": "message",
                     "label": "ปบ.",
-                    "text": "#ปบ."
+                    "text": "#ปบ"
                    }
 				},
  				{
@@ -202,7 +205,7 @@ function flex_msg($keyword)
                  "action": {
                     "type": "message",
                     "label": "หห.",
-                    "text": "#หห."
+                    "text": "#หห"
                    }
                 } 			
                ]

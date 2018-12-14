@@ -31,6 +31,16 @@
 	{
 		$sql_search ="SELECT * FROM tbl_Khasemsak_tdd_job WHERE PEA LIKE '%".$keyword."%'";
 		$query_search = mysqli_query($conn,$sql_search);
+		$numrows = mysqli_num_rows($key_query);
+		$objsearch = mysqli_fetch_array($key_query);
+			if($numrows > 1)
+			{
+				$t_result = "พบข้อมูลงานก่อสร้าง จำนวน ".$numrows " หมายเลขงาน";
+			}
+				else if ($numrows < 1)
+				{
+					$t_result = "ไม่พบข้อมูลงานก่อสร้าง" ;
+				}
 	}
 ?>
 		<body>
@@ -43,7 +53,7 @@
 			</div>
 			
 			<div class="container-fluid">
-					<h3>ผลการค้นหา</h3>
+					<h3><?php  echo $t_result;?></h3>
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="list-group">
