@@ -20,7 +20,7 @@
 				while($obj_result = mysqli_fetch_array($query_txt))
 				{
 					$quan_total = $quan_total + $obj_result["ActQuan"];
-					$result = $result."\n\nหมายเลขงาน  : ".$obj_result["WBS"]."\nสถานะผู้ใช้ : ".$obj_result["Ustatus"]."\nสถานะระบบ : ".$obj_result["Sstatus"]."\nเปิดงานวันที่ : ".$obj_result["CRTD"]."\nชื่องาน : ".$obj_result["Name"]."\nปริมาณงาน : ".$obj_result["Quan"]."\nผลงาน : ".$obj_result["ActQuan"];
+					$result = $result."\n\nหมายเลขงาน  : ".$obj_result["WBS"]."\nสถานะผู้ใช้ : ".$obj_result["Ustatus"]."\nสถานะระบบ : ".$obj_result["Sstatus"]."\nวันที่เปิดงาน : ".$obj_result["CRTD"]."\nชื่องาน : ".$obj_result["Name"]."\nปริมาณงาน : ".$obj_result["Quan"]."\nผลงาน : ".$obj_result["ActQuan"];
 				}
 				$result = $result."\n\nผลงานสะสม : ". $quan_total;
 				return $result;
