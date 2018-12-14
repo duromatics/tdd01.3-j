@@ -25,7 +25,7 @@ function flex_msg($keyword)
 			$txtresult = "0 item";
 			$btn_txt = "Manual";
 		}*/
-		$url = "https://tdd013j.herokuapp.com/Result_Khasemsak.php?keyword=".$keyword_en;
+		$url = "line://app/1629903122-pyRO73v5?keyword=".$keyword_en;
 		$txtresult = $numrows." หมายเลขงาน";
 		$btn_txt = "Click";
 	$json1 = '{
