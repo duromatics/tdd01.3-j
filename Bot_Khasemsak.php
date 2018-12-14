@@ -31,7 +31,7 @@
 						$replyToken = $event['replyToken'];
 						$txtin = $event['message']['text'];
 						$check_cmd == substr ($txtin,0,1);
-						if(check_cmd == "#")
+						if($check_cmd == "#")
 						{	
 							$len_txt = strlen($txtin);
 							$keyword = substr($txtin,1,$len_txt-1);						
