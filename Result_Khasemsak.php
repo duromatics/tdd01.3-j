@@ -28,7 +28,7 @@
 				</div>
 				
 				<div class="row">
-					<div class="col-sm4 offset-sm-4">
+					<div class="col-sm4 offset-sm-3">
 						<h5>สถานะงานก่อสร้าง โครงการพัฒนาระบบส่งและจำหน่าย ระยะที่ 1 (คพจ.1)  กฟต.1</h5>	
 					</div>
 				</div>
