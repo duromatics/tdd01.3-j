@@ -37,11 +37,12 @@
 							$keyword = substr($txtin,1,$len_txt-1);						
 							$result = search($keyword);
 							/*$len = strlen($result);
-						/*if($len > 1900)
-						{
+							/*if($len > 1900)
+							{
 							$result = "ข้อความยาวเกินไป  ".$len;
-						}*/
-						send_back($result,$replyToken);
+							}*/
+							send_back($result,$replyToken);
+						}
 					}
 				}
 			}		
