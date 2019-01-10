@@ -61,6 +61,7 @@
 							<B>ปริมาณงาน ทั้งโครงการ : </B> 1,408 วงจร - กม.<br>
 							<B>อนุมัติงานแล้ว : </B> 379.63 วงจร - กม.<br>
 							<B>ผลงานสะสม ทั้งโครงการ : </B> 154.68 วงจร - กม.
+							<B>ค่าใช้จ่ายหน้างาน ทั้งโครงการ : </B> - บาท
 					</div>
 				</div>
 			</div>
@@ -78,6 +79,7 @@
 							{
 								$quan_total = $quan_total + $objsearch["Quan"];
 								$quanAct_total = $quanAct_total + $objsearch["ActQuan"];
+								$mnyAct_total = $mnyAct_total + $objsearch["ActMny"];
 								echo '<a href="'.$objsearch["email"].'" class="list-group-item list-group-item-action">';
 								echo $a.".<br>";
 								echo "<B>ผู้รับผิดชอบ :</B> ".$objsearch["PEA"]."<br>";
@@ -88,11 +90,13 @@
 								echo "<B>ชื่องาน :</B> ".$objsearch["Name"]."<br>";
 								echo "<B>ปริมาณงาน :</B> ".$objsearch["Quan"]." วงจร - กม.<br>";
 								echo "<B>ผลงาน :</B> ".$objsearch["ActQuan"]." วงจร - กม.<br>";
+								echo "<B>ค่าใช้จ่ายหน้างาน :</B> ".$objsearch["ActMny"]." บาท<br>";
 								echo '</a>';
 								$a=$a+1;
 							}
 							echo "<B>ปริมาณงานทั้งหมด :</B>".$quan_total. " วงจร - กม.<br>";
 							echo "<B>ผลงานสะสม :</B>".$quanAct_total. " วงจร - กม.";
+							echo "<B>ค่าใช้จ่ายหน้างาน :</B>".$mnyAct_total. " วงจร - กม.";
 							$a=0;
 							?>
                     

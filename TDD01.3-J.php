@@ -21,10 +21,12 @@
 				{
 					$quan_total = $quan_total + $obj_result["Quan"];
 					$actquan_total = $actquan_total + $obj_result["ActQuan"];
-					$result = $result."\n\nหมายเลขงาน  : ".$obj_result["WBS"]."\nสถานะผู้ใช้ : ".$obj_result["Ustatus"]."\nสถานะระบบ : ".$obj_result["Sstatus"]."\nวันที่เปิดงาน : ".$obj_result["CRTD"]."\nชื่องาน : ".$obj_result["Name"]."\nปริมาณงาน : ".$obj_result["Quan"]."\nผลงาน : ".$obj_result["ActQuan"];
+					$actmny_total = $actmny_total + $obj_result["ActMny"];
+					$result = $result."\n\nหมายเลขงาน  : ".$obj_result["WBS"]."\nสถานะผู้ใช้ : ".$obj_result["Ustatus"]."\nสถานะระบบ : ".$obj_result["Sstatus"]."\nวันที่เปิดงาน : ".$obj_result["CRTD"]."\nชื่องาน : ".$obj_result["Name"]."\nปริมาณงาน : ".$obj_result["Quan"]."\nผลงาน : ".$obj_result["ActQuan"]."\ค่าใช้จ่ายหน้างาน : ".$obj_result["ActMny"];
 				}
 				$result = $result."\n\nปริมาณงานทั้งหมด : ". $quan_total;
 				$result = $result."\n\nผลงานสะสม : ". $actquan_total;
+				$result = $result."\n\nรวมค่าใช้จ่ายหน้างาน : ". $actmny_total;
 				return $result;
 			}
 	}
