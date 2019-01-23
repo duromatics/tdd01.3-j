@@ -86,7 +86,7 @@
 								echo "<B>หมายเลขงาน :</B> ".$objsearch["WBS"]."<br>";
 								echo "<B>สถานะผู้ใช้ :</B> ".$objsearch["Ustatus"]."<br>";
 								echo "<B>สถานะระบบ :</B> ".$objsearch["Sstatus"]."<br>";
-								echo "<B>วันที่เปิดงาน :</B> ".$objsearch["CRTD"]."<br>";
+								echo "<B>ผู้เปิดงาน :</B> ".$objsearch["CRTD"]."<br>";
 								echo "<B>ชื่องาน :</B> ".$objsearch["Name"]."<br>";
 								echo "<B>ปริมาณงาน :</B> ".$objsearch["Quan"]." วงจร - กม.<br>";
 								echo "<B>ผลงาน :</B> ".$objsearch["ActQuan"]." วงจร - กม.<br>";
