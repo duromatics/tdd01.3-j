@@ -90,7 +90,7 @@
 								echo "<B>ชื่องาน :</B> ".$objsearch["Name"]."<br>";
 								echo "<B>ปริมาณงาน :</B> ".$objsearch["Quan"]." วงจร - กม.<br>";
 								echo "<B>ผลงาน :</B> ".$objsearch["ActQuan"]." วงจร - กม.<br>";
-								echo "<B>ค่าใช้จ่ายหน้างาน :</B> ".$objsearch["ActMny"]." บาท<br>";
+								echo "<B>ค่าใช้จ่ายหน้างาน :</B> ".$objsearch["ActMny"]." ล้านบาท<br>";
 								echo '</a>';
 								$a=$a+1;
 							}
