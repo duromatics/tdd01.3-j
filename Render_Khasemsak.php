@@ -123,8 +123,8 @@ function flex_msg($keyword)
                  "type": "action",
                  "action": {
                     "type": "message",
-                    "label": "ชพ.",
-                    "text": "#ชพ"
+                    "label": "กฟฟ.",
+                    "text": "#กฟ"
                    }
 				},
 				{
@@ -195,8 +195,8 @@ function flex_msg($keyword)
                  "type": "action",
                  "action": {
                     "type": "message",
-                    "label": "ชอ.",
-                    "text": "#ชอ"
+                    "label": "ชพ.",
+                    "text": "#ชพ"
                    }
 				},
 				{
