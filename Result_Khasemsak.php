@@ -50,7 +50,7 @@
 			<div class="container-fluid" style="background-color:#b95ae2;">
 				<div class="row">
 					<div class="col-sm4 offset-sm-0">
-						<h5>โครงการพัฒนาระบบส่งและจำหน่าย ระยะที่ 1 กฟต.1 (สถานะ : 08/01/62)</h5>	
+						<h5>โครงการพัฒนาระบบส่งและจำหน่าย ระยะที่ 1 กฟต.1 (สถานะ : 07/02/62)</h5>	
 					</div>
 				</div>
 			</div>
