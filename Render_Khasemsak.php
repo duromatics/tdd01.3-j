@@ -26,6 +26,7 @@ function flex_msg($keyword)
 			$btn_txt = "Manual";
 		}*/
 		$url = "line://app/1629903122-pyRO73v5?keyword=".$keyword_en;
+		$txtresult = .$keyword_en;
 		$txtresult = "ค้นพบ ".$numrows." หมายเลขงาน";
 		$btn_txt = "Click";
 	$json1 = '{
